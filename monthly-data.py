@@ -28,3 +28,5 @@ annual_gross_revenue = jan + feb + mar + apr + may + jun + jul + aug + sep + oct
 monthly_gross_revenue = 'jan:', jan, 'feb:', feb,'mar:', mar,'apr:', apr,'may:', may,'jun:', jun ,'jul:', jul,'aug:', aug,'sep:', sep,'oct:', oct , 'nov:', nov,'dec:',dec
 quarterly_gross_revenue = 'Q1', jan + feb + mar, 'Q2', apr + may + jun, 'Q3', jul + aug + sep, 'Q4', oct + nov + dec
 print(quarterly_gross_revenue)
+print(annual_gross_revenue)
+print(monthly_gross_revenue)
